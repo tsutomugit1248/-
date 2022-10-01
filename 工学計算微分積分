@@ -1,0 +1,4 @@
+import sympy as sp
+sp.init_printing()
+sp.var('a, x')
+sp.integrate(sp.exp(-a*x), x)
