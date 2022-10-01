@@ -1,0 +1,6 @@
+# -import sympy as py
+py.init_printing()
+py.var('a, x')
+y = py.Function('y')(x)
+eq = py.Eq( py.diff(y, x),  -a*y )
+py.dsolve(eq)
