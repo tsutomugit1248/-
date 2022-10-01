@@ -1,4 +1,4 @@
-# -import sympy as py
+import sympy as py
 py.init_printing()
 py.var('a, x')
 y = py.Function('y')(x)
